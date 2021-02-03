@@ -15,7 +15,7 @@ if(!$_GET['surat']){
   header("location:index.php");
 }
 $var=json_decode(get("https://api.quran.sutanlab.id/surah/".$_GET['surat']),true);
-$url = "http://localhost/alquran/detail.php?surat=".$_GET['surat']."";
+$url = "https://al-quran-online.herokuapp.com/detail.php?surat=".$_GET['surat']."";
 ?>
 <!doctype html>
 <html lang="en">
