@@ -1,6 +1,6 @@
 <?php
 error_reporting(0);
-$url = "http://localhost/alquran/";
+$url = "https://al-quran-online.herokuapp.com/";
 function get($url){
   $ch = curl_init();
   curl_setopt($ch, CURLOPT_URL, $url);
